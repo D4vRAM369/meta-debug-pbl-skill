@@ -1,0 +1,7 @@
+interface:
+  display_name: "Meta Debug PBL"
+  short_description: "Metacognitive debugging and PBL mentoring"
+  default_prompt: "Use $meta-debug-pbl to debug this issue, explain the cause, and document the fix in a student-friendly way."
+
+policy:
+  allow_implicit_invocation: true

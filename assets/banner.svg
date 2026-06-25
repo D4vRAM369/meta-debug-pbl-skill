@@ -1,0 +1,29 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Meta Debug PBL Skill</title>
+  <desc id="desc">Project banner for an AI skill about metacognitive debugging, code review, and project-based learning.</desc>
+  <rect width="1280" height="640" fill="#101820"/>
+  <path d="M0 520C150 470 265 498 392 538C530 582 679 632 860 566C1027 506 1135 424 1280 462V640H0V520Z" fill="#2F6F73"/>
+  <path d="M0 80C153 40 295 51 421 115C576 194 716 194 864 118C1010 43 1132 33 1280 82V0H0V80Z" fill="#D7A64A"/>
+  <rect x="96" y="94" width="1088" height="452" rx="30" fill="#F8F4EA"/>
+  <rect x="138" y="138" width="382" height="364" rx="20" fill="#101820"/>
+  <rect x="168" y="176" width="110" height="16" rx="8" fill="#D7A64A"/>
+  <rect x="168" y="222" width="282" height="14" rx="7" fill="#F8F4EA" opacity=".86"/>
+  <rect x="168" y="258" width="210" height="14" rx="7" fill="#F8F4EA" opacity=".68"/>
+  <rect x="168" y="294" width="258" height="14" rx="7" fill="#F8F4EA" opacity=".78"/>
+  <rect x="168" y="350" width="72" height="72" rx="16" fill="#2F6F73"/>
+  <path d="M194 386L207 399L229 371" stroke="#F8F4EA" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="266" y="358" width="156" height="12" rx="6" fill="#F8F4EA" opacity=".86"/>
+  <rect x="266" y="390" width="118" height="12" rx="6" fill="#F8F4EA" opacity=".58"/>
+  <text x="590" y="226" fill="#101820" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="74" font-weight="800">Meta Debug PBL</text>
+  <text x="594" y="288" fill="#2F6F73" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="28" font-weight="700">Debug like a senior. Learn like a builder.</text>
+  <text x="594" y="352" fill="#101820" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="25" font-weight="500">Metacognitive debugging, code review,</text>
+  <text x="594" y="390" fill="#101820" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="25" font-weight="500">bug reports, and project-based learning</text>
+  <g transform="translate(594 436)">
+    <rect width="172" height="42" rx="21" fill="#101820"/>
+    <text x="24" y="28" fill="#F8F4EA" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="18" font-weight="700">AI Skill</text>
+    <rect x="192" width="184" height="42" rx="21" fill="#2F6F73"/>
+    <text x="216" y="28" fill="#F8F4EA" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="18" font-weight="700">Codex-ready</text>
+    <rect x="396" width="146" height="42" rx="21" fill="#D7A64A"/>
+    <text x="420" y="28" fill="#101820" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="18" font-weight="800">PBL</text>
+  </g>
+</svg>

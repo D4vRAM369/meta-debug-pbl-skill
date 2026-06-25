@@ -37,23 +37,30 @@ It is designed for moments where the user does not only want working code, but a
 
 ## Install
 
-Clone this repository, then place the skill folder where your agent can discover local skills.
+Install directly from GitHub.
 
 For Codex:
 
 ```bash
 mkdir -p ~/.codex/skills
-cp -R meta-debug-pbl-skill ~/.codex/skills/meta-debug-pbl
+git clone https://github.com/D4vRAM369/meta-debug-pbl-skill.git ~/.codex/skills/meta-debug-pbl
 ```
 
-For agents that read `~/.agents/skills`:
+For Claude Code:
 
 ```bash
-mkdir -p ~/.agents/skills
-cp -R meta-debug-pbl-skill ~/.agents/skills/meta-debug-pbl
+mkdir -p ~/.claude/skills
+git clone https://github.com/D4vRAM369/meta-debug-pbl-skill.git ~/.claude/skills/meta-debug-pbl
 ```
 
-Restart the agent session after copying the folder.
+Restart the agent session after installing.
+
+To update later:
+
+```bash
+git -C ~/.codex/skills/meta-debug-pbl pull
+git -C ~/.claude/skills/meta-debug-pbl pull
+```
 
 ## Usage
 
@@ -61,6 +68,12 @@ Invoke it explicitly:
 
 ```text
 Use $meta-debug-pbl to debug this error and explain it like a programming mentor.
+```
+
+In Claude Code, invoke it as:
+
+```text
+/meta-debug-pbl debug this error and explain it like a programming mentor.
 ```
 
 Use it for code review:
@@ -146,23 +159,30 @@ Está pensada para situaciones donde no solo quieres código funcionando, sino e
 
 ## Instalación
 
-Clona este repositorio y coloca la carpeta de la skill donde tu agente pueda descubrir skills locales.
+Instala directamente desde GitHub.
 
 Para Codex:
 
 ```bash
 mkdir -p ~/.codex/skills
-cp -R meta-debug-pbl-skill ~/.codex/skills/meta-debug-pbl
+git clone https://github.com/D4vRAM369/meta-debug-pbl-skill.git ~/.codex/skills/meta-debug-pbl
 ```
 
-Para agentes que leen `~/.agents/skills`:
+Para Claude Code:
 
 ```bash
-mkdir -p ~/.agents/skills
-cp -R meta-debug-pbl-skill ~/.agents/skills/meta-debug-pbl
+mkdir -p ~/.claude/skills
+git clone https://github.com/D4vRAM369/meta-debug-pbl-skill.git ~/.claude/skills/meta-debug-pbl
 ```
 
-Reinicia la sesión del agente después de copiar la carpeta.
+Reinicia la sesión del agente después de instalar.
+
+Para actualizar después:
+
+```bash
+git -C ~/.codex/skills/meta-debug-pbl pull
+git -C ~/.claude/skills/meta-debug-pbl pull
+```
 
 ## Uso
 
@@ -170,6 +190,12 @@ Invócala explícitamente:
 
 ```text
 Usa $meta-debug-pbl para depurar este error y explicarlo como mentor de programación.
+```
+
+En Claude Code, invócala así:
+
+```text
+/meta-debug-pbl depura este error y explícalo como mentor de programación.
 ```
 
 Úsala para revisar código:
